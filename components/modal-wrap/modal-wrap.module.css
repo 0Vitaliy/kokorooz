@@ -12,7 +12,7 @@
 
 .modal {
   background-color: #fff;
-  padding: 20px;
+  padding: 28px 47px;
   border-radius: 30px;
   position: relative;
   max-width: 670px;
@@ -40,8 +40,8 @@
 
 .modalClose {
   position: absolute;
-  top: 22px;
-  right: 22px;
+  top: 0px;
+  right: 0px;
   border: none;
   cursor: pointer;
   background: #000000;
