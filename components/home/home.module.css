@@ -110,3 +110,7 @@
   color: #4f4f4f;
   margin-bottom: 18px;
 }
+
+.privacyPolicyAndTerms a {
+  cursor: pointer;
+}

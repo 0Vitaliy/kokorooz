@@ -1,0 +1,25 @@
+.titlePrivacyPolicy {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.textPrivacyPolicy {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  font-family: Montserrat, sans-serif;
+}
+
+.subtitlePrivacyPolicy {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
