@@ -1,4 +1,5 @@
-import styles from './home.module.css';
+import Image from 'next/image';
+import { useState } from 'react';
 import HeartIcon from '../../assets/icon-heart.svg';
 import DollarCoinIcon from '../../assets/icon-dollar-coin.svg';
 import CameraIcon from '../../assets/camera-icon.svg';
@@ -8,13 +9,10 @@ import GlassesIcon from '../../assets/glasses.svg';
 import AppStoreIcon from '../../assets/app-store.svg';
 import GooglePlayIcon from '../../assets/google-play.png';
 import PhonesIcon from '../../assets/phones.png';
-
 import KokoroozIcon from '../../assets/kokorooz-icon.svg';
-import Image from 'next/image';
-import { useState } from 'react';
-import { ModalWrap } from '../modal-wrap';
 import { PrivacyPolicyModal } from '../privacy-policy-modal';
 import { TermsModal } from '../terms-modal';
+import styles from './home.module.css';
 
 export const HomePage = () => {
   const [isOpenPrivacyPolicy, setIsOpenPrivacyPolicy] = useState(false);

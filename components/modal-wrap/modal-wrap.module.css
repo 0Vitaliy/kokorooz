@@ -8,6 +8,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0; /* Початково встановлюємо прозорість на 0 */
+  transition: opacity 0.3s ease; /* Додаємо перехід для зміни прозорості */
+  pointer-events: none;
 }
 
 .modal {
@@ -20,6 +23,11 @@
   max-height: 92vh;
   display: flex;
   flex-direction: column;
+
+  opacity: 0; /* Початково встановлюємо прозорість на 0 */
+  transition: opacity 0.3s ease; /* Додаємо перехід для зміни прозорості */
+  transform: scale(0.9); /* Зменшуємо розмір модального вікна */
+  pointer-events: none;
 }
 
 .content {
