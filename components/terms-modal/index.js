@@ -2,6 +2,7 @@ import { ModalWrap } from '../modal-wrap';
 import styles from './terms-modal.module.css';
 
 export const TermsModal = ({ isOpen, onClose }) => {
+  //
   return (
     <ModalWrap isOpen={isOpen} onClose={onClose} title='Terms of use'>
       <>
