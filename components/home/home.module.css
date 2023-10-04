@@ -20,6 +20,12 @@
   padding: 50px;
 }
 
+@media (max-width: 1000px) {
+  .phonesBlock {
+    display: none;
+  }
+}
+
 .titlePrivacyPolicy {
   font-weight: 600;
   font-size: 20px;
