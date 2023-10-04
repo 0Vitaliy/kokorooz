@@ -75,7 +75,7 @@ export const HomePage = () => {
             All rights reserved
           </p>
         </div>
-        {/* {isOpenPrivacyPolicy && (
+        {isOpenPrivacyPolicy && (
           <PrivacyPolicyModal
             isOpen={isOpenPrivacyPolicy}
             onClose={closeModalPrivacyPolicy}
@@ -83,7 +83,7 @@ export const HomePage = () => {
         )}
         {isOpenTerms && (
           <TermsModal isOpen={isOpenTerms} onClose={closeModalTerms} />
-        )} */}
+        )}
       </div>
     </div>
   );
