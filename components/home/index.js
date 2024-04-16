@@ -13,13 +13,17 @@ import KokoroozIcon from '../../assets/kokorooz-icon.svg';
 import { PrivacyPolicyModal } from '../privacy-policy-modal';
 import { TermsModal } from '../terms-modal';
 import styles from './home.module.css';
+import { useRouter } from 'next/router';
 
 export const HomePage = () => {
+  const router = useRouter();
+
   const [isOpenPrivacyPolicy, setIsOpenPrivacyPolicy] = useState(false);
   const [isOpenTerms, setIsOpenTerms] = useState(false);
 
   const openModalPrivacyPolicy = () => {
-    setIsOpenPrivacyPolicy(true);
+    router.push('/privacy_policy')
+    // setIsOpenPrivacyPolicy(true);
   };
 
   const closeModalPrivacyPolicy = () => {
@@ -27,7 +31,8 @@ export const HomePage = () => {
   };
 
   const openModalTerms = () => {
-    setIsOpenTerms(true);
+    router.push('/terms_of_use')
+    // setIsOpenTerms(true);
   };
 
   const closeModalTerms = () => {
@@ -56,7 +61,7 @@ export const HomePage = () => {
           <Image src={KokoroozIcon} alt='' width={'100%'} />
           <h2 className={styles.title}>for basic instincts</h2>
           <p className={styles.text}>
-            Публікуй пропозиції,знаходи своїх людей та знайомся.
+            Publish offers, find your people and get acquainted
           </p>
           <div className={styles.iconsDownload}>
             <Image src={AppStoreIcon} alt='' width={'100%'} />
