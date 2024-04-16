@@ -74,7 +74,7 @@ export const HomePage = () => {
             <a onClick={openModalTerms}>Terms of use</a>
           </div>
           <p className={styles.copyright}>
-            Copyright © 2023 KOKOROOZ Inc <br />
+            Copyright © 2024 KOKOROOZ Inc <br />
             All rights reserved
           </p>
         </div>
